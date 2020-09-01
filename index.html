@@ -1,0 +1,143 @@
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Dance Event</title>
+  </head>
+<body>
+			
+			<div class="header-top-nav">
+					<div class="wrap">
+						<ul>
+							<li><a id="home" onclick="disp(this.id)">Home</a></li>
+	                    	<li><a id="register" onclick="disp(this.id)">Registration</a></li>
+	                    	<li><a id="showList" onclick="disp(this.id)">Show Registrations</a></li>
+						</ul>
+					</div>
+			</div> 
+			
+		<div class="section" id="home_page">
+			<div class="wcmsg" id="d1_wcmsg">
+					<b>Welcome to Dance India Dance 2020 !!</b>
+			</div>
+			
+			<div class="wcmsg" >
+                      <b>  Groove to the beat and grab the opportunity.</b>
+			</div>
+			
+			<div class="wcmsg" id="d1_wcmsg">
+					<b>Registrations Open till 30th August 2020</b>
+			</div>
+		</div>	
+			
+	<div class="section" id="registerBlock">
+	<form>
+	<center><div><h1>Register Yourself</h1></div></center>
+		<div class="form-group">
+  			<label for="FullName">First Name</label>
+  			<input type="text" class="form-control" id="FirstName">
+  		</div>
+
+  		<div class="form-group">
+  			<label for="FullName">Last Name</label>
+  			<input type="text" class="form-control" id="LastName">
+  		</div>
+
+  		<div class="form-group">
+    		<label for="exampleInputEmail1">Email address</label>
+    		<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    		<span id="lblError" style="color: red"></span><br>
+  		</div>
+		
+  		<div class="form-group">
+  			<label for="mobileNumber">Mobile Number</label>
+  			<input type="text" class="form-control" id="mobileNumber" maxlength="10" onkeypress='validate(event);'>
+  		</div>
+		
+		<div class="form-group">
+  			<label for="gender">Gender</label>
+			<br>
+			<input type="radio" id="r1" name="gender" value="male" checked="checked">Male<br>
+			
+			<input type="radio" id="r2" name="gender" value="female">Female<br>
+			
+			<input type="radio" id="r3" name="gender" value="other">Others
+			
+  		</div>
+		
+		<div class="form-group">
+  			<label for="city">city</label>
+  			<input type="text" class="form-control" id="city" >
+  		</div>
+		
+		<div class="form-group">
+  			<label for="dancetype">Dance Type</label>
+  			<input type="text" class="form-control" id="dancetype" >
+  		</div>
+
+  		<div class="form-group">
+  		<center>	<button type="button" id="register-btn">Register</button></center>
+  		</div>
+	</form>
+	</div>
+	
+	<div class="section" id="showListBlock" style="text-align:center;">
+		<table id="registrantList">
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email</th>
+				<th>Contact</th>
+				<th>City</th>
+				<th>Gender</th>
+				<th>Dance Type</th>
+			</tr>
+		</table>
+		<h4 id = "noData">No Registrations</h4>
+	</div>
+	
+	
+	
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script
+  		src="https://code.jquery.com/jquery-3.5.1.js">
+  </script>
+
+  <script type="text/javascript" src="js/index.js"></script>
+			
+<script type="text/javascript" src="js/script.js" defer="true"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

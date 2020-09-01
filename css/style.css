@@ -1,0 +1,166 @@
+
+
+.wcmsg{
+	font-family:Times New Roman;
+	font-size:40px;
+	color:black;
+	text-align:center;
+	display:block;
+	margin-top: 30px;
+	
+	
+}
+.header-top-nav{
+	color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#a55c1b;
+    background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+border-radius:10px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:Times New Roman;
+  font-size:30px;
+}
+
+li a:hover {
+ color: #ff9900;
+	background: #454545;
+}
+
+.ddl{
+	font-family:Times New Roman;
+	font-size:50px;
+	color:white;
+	width:600px;
+	text-align:center;
+	background-color:#a55c1b;
+    background-image: linear-gradient(315deg, #000000 0%, #a55c1b 74%);
+
+	display:block;
+	margin-top: 50px;
+	margin-left: 700px;
+	border-radius:10px;
+	
+	
+}
+
+body{
+background-image:url("dance.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;	
+}
+
+label{
+	text-align: left;
+	width:200px;
+	padding-left: 30px;
+	display:inline-block;
+}
+
+
+input{
+	size:270px;
+	width:270px;
+	height:30px;
+}
+
+
+
+width:900px;
+background-color:#a55c1b;
+    background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+border-radius:10px;
+
+.form-group{
+	font-size: 1 vw;
+}
+
+#registerBlock{
+	font-weight: bold;
+	position: relative;
+	border: 2px solid;
+	display: block;
+	justify-content: center;
+	margin: 2% 10% 3% 10%;
+	padding: 10px;
+	box-sizing: 10vw;
+	display: none;
+	background: orange;
+}
+
+#registerBlock .form-group{
+	padding: 0px;
+	
+}
+
+#showListBlock{
+	display: none;
+}
+
+#showListBlock table{
+	justify-content: center;
+	margin-left:auto; 
+    margin-right:auto;
+    margin-top: 3%
+} 
+
+#registrantList {
+  border-collapse: collapse;
+  width: 80%;
+  font-size: 1.5vw;
+  justify-content: center;
+}
+
+#registrantList td, #registrantList th {
+  padding: 8px;
+  border-radius: 10px;
+}
+
+#registrantList tr:nth-child(even)
+{
+	background-color:   #fff2e6;
+	border-radius: 10px;
+}
+#registrantList tr:nth-child(odd)
+{
+	background-color:   #fff2e6;
+	border-radius: 10px;
+}
+
+#registrantList th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color:  #cc6600;
+  color: white;
+  border-radius: 10px;
+}
+#register-btn{
+	border-radius: 30px;
+	width:150px;
+	height:50px;
+	color:black;
+	font-family:Times New Roman;
+	font-size:30px;
+	border:2px solid;
+}
+
+
+
+
